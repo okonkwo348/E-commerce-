@@ -1,0 +1,7 @@
+services:
+  - type:web
+    name: users,products,oders
+    env:venv
+    branch:main
+    buildCommand:npm install
+    startCommand:npm start
